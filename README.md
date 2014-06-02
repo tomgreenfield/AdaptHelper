@@ -6,7 +6,7 @@ This is an Sublime Text package to help with the population of content in the [A
 
 Note: you must have [Package Control](https://sublime.wbond.net/installation) installed before following these steps.
 
-1. In Sublime Text, open the Command Palette by clicking *Tools > Command Palette…* or by pressing <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>P</kbd>.
+1. In Sublime Text, open the Command Palette by clicking *Tools > Command Palette…* or by pressing <kbd>Ctrl</kbd>+<kbd>⇧ Shift</kbd>+<kbd>P</kbd>.
 2. Type `add repo` and select *Package Control: Add Repository*.
 3. Type `https://github.com/tomgreenfield/AdaptHelper` and press <kbd>↵ Enter</kbd>.
 4. Open the Command Palette again, type `install` and select *Package Control: Install Package*.
