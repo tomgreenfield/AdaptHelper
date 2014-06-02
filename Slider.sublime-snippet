@@ -1,0 +1,49 @@
+<snippet>
+  <!-- Example: Hello, ${1:this} is a ${2:snippet}. -->
+  <content><![CDATA[
+{
+	"_id": "componentID",
+	"_parentId": "blockID",
+	"_type": "component",
+	"_component": "slider",
+	"_classes": "",
+	"_layout": "layout",
+	"title": "title",
+	"displayTitle": "title",
+	"body": "body",
+	"instruction": "instruction",
+	"_attempts": 2,
+	"_questionWeight": 1,
+	"_showNumber": true,
+	"_showScaleIndicator": true,
+	"labelStart": "labelStart",
+	"labelEnd": "labelEnd",
+	"_scaleStart": 1,
+	"_scaleEnd": 10,
+	"_correctAnswer": "",
+	"_correctRange": {
+		"_bottom": 4,
+		"_top": 9
+	},
+	"_feedback": {
+		"correct": "correct",
+		"_partlyCorrect": {
+			"notFinal": "notFinal",
+			"final": "final"
+		},
+		"_incorrect": {
+			"notFinal": "notFinal",
+			"final": "final"
+		}
+	},
+	"_pageLevelProgress": {
+		"_isEnabled": true
+	}
+}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>slider</tabTrigger>
+  <description></description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.json</scope>
+</snippet>

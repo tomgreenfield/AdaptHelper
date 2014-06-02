@@ -1,0 +1,5 @@
+[
+	{ "caption": "-" },
+	{ "caption": "Cancel running task", "command": "kill" },
+	{ "caption": "-" }
+]

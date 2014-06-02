@@ -1,0 +1,57 @@
+<snippet>
+  <!-- Example: Hello, ${1:this} is a ${2:snippet}. -->
+  <content><![CDATA[
+{
+	"_id": "componentID",
+	"_parentId": "blockID",
+	"_type": "component",
+	"_component": "accordion",
+	"_classes": "",
+	"_layout": "layout",
+	"title": "title",
+	"displayTitle": "title",
+	"body": "body",
+	"instruction": "instruction",
+	"_items": [
+		{
+			"alt": "",
+			"title": "title",
+			"body": "body"
+		},
+		{
+			"alt": "",
+			"title": "title",
+			"body": "body"
+		},
+		{
+			"alt": "",
+			"title": "title",
+			"body": "body"
+		},
+		{
+			"alt": "",
+			"title": "title",
+			"body": "body"
+		},
+		{
+			"alt": "",
+			"title": "title",
+			"body": "body"
+		},
+		{
+			"alt": "",
+			"title": "title",
+			"body": "body"
+		}
+	],
+	"_pageLevelProgress": {
+		"_isEnabled": true
+	}
+}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>accordion</tabTrigger>
+  <description></description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.json</scope>
+</snippet>

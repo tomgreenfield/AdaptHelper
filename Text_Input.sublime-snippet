@@ -1,0 +1,68 @@
+<snippet>
+  <!-- Example: Hello, ${1:this} is a ${2:snippet}. -->
+  <content><![CDATA[
+{
+	"_id": "componentID",
+	"_parentId": "blockID",
+	"_type": "component",
+	"_component": "textinput",
+	"_classes": "",
+	"_layout": "layout",
+	"title": "title",
+	"displayTitle": "displayTitle",
+	"body": "body",
+	"instruction": "instruction",
+	"_attempts": 2,
+	"placeholder": "Enter answer here",
+	"_allowsAnyOrder": false,
+	"_allowsAnyCase": true,
+	"_allowsPunctuation": true,
+	"_questionWeight": 1,
+	"_items": [
+		{
+			"prefix": "prefix",
+			"_answers": [
+				"answer",
+				"answer"
+			],
+			"suffix": "suffix"
+		},
+		{
+			"prefix": "prefix",
+			"_answers": [
+				"answer",
+				"answer"
+			],
+			"suffix": "suffix"
+		},
+		{
+			"prefix": "prefix",
+			"_answers": [
+				"answer",
+				"answer"
+			],
+			"suffix": "suffix"
+		}
+	],
+	"_feedback": {
+		"correct": "correct",
+		"_partlyCorrect": {
+			"notFinal": "notFinal",
+			"final": "final"
+		},
+		"_incorrect": {
+			"notFinal": "notFinal",
+			"final": "final"
+		}
+	},
+	"_pageLevelProgress": {
+		"_isEnabled": true
+	}
+}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>textinput</tabTrigger>
+  <description>Text Input</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.json</scope>
+</snippet>

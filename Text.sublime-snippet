@@ -1,0 +1,25 @@
+<snippet>
+  <!-- Example: Hello, ${1:this} is a ${2:snippet}. -->
+  <content><![CDATA[
+{
+	"_id": "componentID",
+	"_parentId": "blockID",
+	"_type": "component",
+	"_component": "text",
+	"_classes": "",
+	"_layout": "layout",
+	"title": "title",
+	"displayTitle": "title",
+	"body": "body",
+	"instruction": "",
+	"_pageLevelProgress": {
+		"_isEnabled": true
+	}
+}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>text</tabTrigger>
+  <description></description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.json</scope>
+</snippet>

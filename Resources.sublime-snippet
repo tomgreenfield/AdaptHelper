@@ -1,0 +1,40 @@
+<snippet>
+  <!-- Example: Hello, ${1:this} is a ${2:snippet}. -->
+  <content><![CDATA[
+"_resources": {
+	"title": "Resources",
+	"description": "description",
+	"_filterButtons": {
+		"all": "All",
+		"document": "PDF",
+		"media": "Media",
+		"link": "Link"
+	},
+	"_resourcesItems": [
+		{
+			"_type": "document",
+			"title": "title",
+			"description": "description",
+			"_link": "course/en/pdf/filename.pdf"
+		},
+		{
+			"_type": "media",
+			"title": "title",
+			"description": "description",
+			"_link": "link"
+		},
+		{
+			"_type": "link",
+			"title": "title",
+			"description": "description",
+			"_link": "link"
+		}
+	]
+}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>resources</tabTrigger>
+  <description></description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.json</scope>
+</snippet>

@@ -1,0 +1,77 @@
+<snippet>
+  <!-- Example: Hello, ${1:this} is a ${2:snippet}. -->
+  <content><![CDATA[
+{
+	"_id": "componentID",
+	"_parentId": "blockID",
+	"_type": "component",
+	"_component": "narrative",
+	"_classes": "",
+	"_layout": "layout",
+	"title": "title",
+	"displayTitle": "title",
+	"body": "body",
+	"instruction": "instruction",
+	"_items": [
+		{
+			"title": "title",
+			"body": "body",
+			"_graphic": {
+				"src": "course/en/images/componentID-1.jpg",
+				"alt": "",
+				"title": ""
+			},
+			"strapline": "title"
+		},
+		{
+			"title": "title",
+			"body": "body",
+			"_graphic": {
+				"src": "course/en/images/componentID-2.jpg",
+				"alt": "",
+				"title": ""
+			},
+			"strapline": "title"
+		},
+		{
+			"title": "title",
+			"body": "body",
+			"_graphic": {
+				"src": "course/en/images/componentID-3.jpg",
+				"alt": "",
+				"title": ""
+			},
+			"strapline": "title"
+		},
+		{
+			"title": "title",
+			"body": "body",
+			"_graphic": {
+				"src": "course/en/images/componentID-4.jpg",
+				"alt": "",
+				"title": ""
+			},
+			"strapline": "title"
+		},
+		{
+			"title": "title",
+			"body": "body",
+			"_graphic": {
+				"src": "course/en/images/componentID-5.jpg",
+				"alt": "",
+				"title": ""
+			},
+			"strapline": "title"
+		}
+	],
+	"_pageLevelProgress": {
+		"_isEnabled": true
+	}
+}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>narrative</tabTrigger>
+  <description></description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.json</scope>
+</snippet>

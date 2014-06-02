@@ -1,0 +1,93 @@
+<snippet>
+  <!-- Example: Hello, ${1:this} is a ${2:snippet}. -->
+  <content><![CDATA[
+{
+	"_id": "componentID",
+	"_parentId": "blockID",
+	"_type": "component",
+	"_component": "hotgraphic",
+	"_classes": "",
+	"_layout": "layout",
+	"title": "title",
+	"displayTitle": "title",
+	"body": "body",
+	"mobileBody": "",
+	"instruction": "instruction",
+	"_graphic": {
+		"src": "course/en/images/componentID.jpg",
+		"alt": "",
+		"title": ""
+	},
+	"_items": [
+		{
+			"title": "title",
+			"body": "body",
+			"_graphic": {
+				"src": "course/en/images/componentID-1.jpg",
+				"alt": "",
+				"title": ""
+			},
+			"strapline": "title",
+			"_top": 5,
+			"_left": 5
+		},
+		{
+			"title": "title",
+			"body": "body",
+			"_graphic": {
+				"src": "course/en/images/componentID-2.jpg",
+				"alt": "",
+				"title": ""
+			},
+			"strapline": "title",
+			"_top": 15,
+			"_left": 15
+		},
+		{
+			"title": "title",
+			"body": "body",
+			"graphic": {
+				"src": "course/en/images/componentID-3.jpg",
+				"alt": "",
+				"title": ""
+			},
+			"strapline": "title",
+			"_top": 25,
+			"_left": 25
+		},
+		{
+			"title": "title",
+			"body": "body",
+			"graphic": {
+				"src": "course/en/images/componentID-4.jpg",
+				"alt": "",
+				"title": ""
+			},
+			"strapline": "title",
+			"_top": 35,
+			"_left": 35
+		},
+		{
+			"title": "title",
+			"body": "body",
+			"graphic": {
+				"src": "course/en/images/componentID-5.jpg",
+				"alt": "",
+				"title": ""
+			},
+			"strapline": "title",
+			"_top": 45,
+			"_left": 45
+		}
+	],
+	"_pageLevelProgress": {
+		"_isEnabled": true
+	}
+}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>hotgraphic</tabTrigger>
+  <description>Hot Graphic</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.json</scope>
+</snippet>

@@ -1,0 +1,93 @@
+<snippet>
+  <!-- Example: Hello, ${1:this} is a ${2:snippet}. -->
+  <content><![CDATA[
+{
+	"_id": "componentID",
+	"_parentId": "blockID",
+	"_type": "component",
+	"_component": "matching",
+	"_classes": "",
+	"_layout": "layout",
+	"_attempts": 2,
+	"_random": true,
+	"_questionWeight": 1,
+	"title": "title",
+	"displayTitle": "title",
+	"body": "body",
+	"instruction": "instruction",
+	"placeholder": "Select an option",
+	"_items": [
+		{
+			"text": "text",
+			"_options": [
+				{
+					"text": "text",
+					"_isCorrect": false
+				},
+				{
+					"text": "text",
+					"_isCorrect": false
+				},
+				{
+					"text": "text",
+					"_isCorrect": false
+				}
+			]
+		},
+		{
+			"text": "text",
+			"_options": [
+				{
+					"text": "text",
+					"_isCorrect": false
+				},
+				{
+					"text": "text",
+					"_isCorrect": false
+				},
+				{
+					"text": "text",
+					"_isCorrect": false
+				}
+			]
+		},
+		{
+			"text": "text",
+			"_options": [
+				{
+					"text": "text",
+					"_isCorrect": false
+				},
+				{
+					"text": "text",
+					"_isCorrect": false
+				},
+				{
+					"text": "text",
+					"_isCorrect": false
+				}
+			]
+		}
+	],
+	"_feedback": {
+		"correct": "correct",
+		"_partlyCorrect": {
+			"notFinal": "notFinal",
+			"final": "final"
+		},
+		"_incorrect": {
+			"notFinal": "notFinal",
+			"final": "final"
+		}
+	},
+	"_pageLevelProgress": {
+		"_isEnabled": true
+	}
+}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>matching</tabTrigger>
+  <description></description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.json</scope>
+</snippet>

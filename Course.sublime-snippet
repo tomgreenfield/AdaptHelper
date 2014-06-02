@@ -1,0 +1,23 @@
+<snippet>
+  <!-- Example: Hello, ${1:this} is a ${2:snippet}. -->
+  <content><![CDATA[
+{
+	"_id": "courseID",
+	"_type": "course",
+	"title": "title",
+	"displayTitle": "title",
+	"body": "body",
+	"_buttons": {
+		"submit": "Submit",
+		"reset": "Reset",
+		"showCorrectAnswer": "Model Answer",
+		"hideCorrectAnswer": "My Answer"
+	}
+}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>course</tabTrigger>
+  <description></description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.json</scope>
+</snippet>

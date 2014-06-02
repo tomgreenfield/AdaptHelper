@@ -1,0 +1,60 @@
+<snippet>
+  <!-- Example: Hello, ${1:this} is a ${2:snippet}. -->
+  <content><![CDATA[
+{
+	"_id": "componentID",
+	"_parentId": "blockID",
+	"_type": "component",
+	"_component": "mcq",
+	"_classes": "",
+	"_layout": "layout",
+	"_attempts": 1,
+	"_questionWeight": 1,
+	"_isRandom": true,
+	"_selectable": 5,
+	"title": "title",
+	"displayTitle": "title",
+	"body": "body",
+	"instruction": "instruction",
+	"_items": [
+		{
+			"text": "text",
+			"_shouldBeSelected": false
+		},
+		{
+			"text": "text",
+			"_shouldBeSelected": false
+		},
+		{
+			"text": "text",
+			"_shouldBeSelected": false
+		},
+		{
+			"text": "text",
+			"_shouldBeSelected": false
+		},
+		{
+			"text": "text",
+			"_shouldBeSelected": false
+		}
+	],
+	"_feedback": {
+		"correct": "correct",
+		"_partlyCorrect": {
+			"final": "final"
+		},
+		"_incorrect": {
+			"final": "final"
+		}
+	},
+	"_pageLevelProgress": {
+		"_isEnabled": true
+	}
+}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>mcqmultiple1</tabTrigger>
+  <description>MCQ, Multiple-Select</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.json</scope>
+</snippet>
