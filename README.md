@@ -34,7 +34,13 @@ To kill a running command, right-click the side bar or output panel and select *
 
 ## Snippets
 
-Includes snippets for
+The easiest way to insert snippets is by using triggers.
+
+For example, type `hotgraphic` then press <kbd>Tab ↹</kbd> to insert a hot graphic component.
+
+These snippets are only programmed to trigger in JSON files. To see a list of all snippets and their triggers, open the Command Palette and type `snippet`.
+
+This package includes snippets for
 
 * Course
 * Content Object
