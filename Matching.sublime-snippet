@@ -9,7 +9,7 @@
 	"_classes": "",
 	"_layout": "layout",
 	"_attempts": 2,
-	"_random": true,
+	"_isRandom": true,
 	"_questionWeight": 1,
 	"title": "title",
 	"displayTitle": "title",

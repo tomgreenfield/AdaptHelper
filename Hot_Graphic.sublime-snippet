@@ -46,7 +46,7 @@
 		{
 			"title": "title",
 			"body": "body",
-			"graphic": {
+			"_graphic": {
 				"src": "course/en/images/componentID-3.jpg",
 				"alt": "",
 				"title": ""
@@ -58,7 +58,7 @@
 		{
 			"title": "title",
 			"body": "body",
-			"graphic": {
+			"_graphic": {
 				"src": "course/en/images/componentID-4.jpg",
 				"alt": "",
 				"title": ""
@@ -70,7 +70,7 @@
 		{
 			"title": "title",
 			"body": "body",
-			"graphic": {
+			"_graphic": {
 				"src": "course/en/images/componentID-5.jpg",
 				"alt": "",
 				"title": ""
