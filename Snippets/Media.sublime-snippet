@@ -14,7 +14,7 @@
 	"instruction": "instruction",
 	"_comment": "_setCompletionOn = inview | play | ended",
 	"_setCompletionOn": "play",
-	"media": {
+	"_media": {
 		"mp4": "course/en/video/componentID.mp4",
 		"ogv": "course/en/video/componentID.ogv",
 		"poster": "course/en/video/componentID.jpg"
