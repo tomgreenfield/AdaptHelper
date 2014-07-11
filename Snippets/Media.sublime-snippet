@@ -17,7 +17,7 @@
 	"media": {
 		"mp4": "course/en/video/componentID.mp4",
 		"ogv": "course/en/video/componentID.ogv",
-		"poster": "course/en/images/componentID.jpg"
+		"poster": "course/en/video/componentID.jpg"
 	},
 	"_pageLevelProgress": {
 		"_isEnabled": true
