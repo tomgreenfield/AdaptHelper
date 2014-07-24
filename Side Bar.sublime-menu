@@ -1,7 +1,7 @@
 [
-    { "caption": "-", "id": "start" },
-	{ "caption": "Grunt here…", "command": "run_command_here", "args": { "cmd_name": "grunt", "require_input": true, "dirs": []} },
-	{ "caption": "Run other command here…", "command": "run_command_here", "args": { "require_input": true, "dirs": []} },
+	{ "caption": "-", "id": "start" },
+	{ "caption": "Grunt here…", "command": "run_command_here", "args": { "cmd_name": "grunt --no-color", "label": "$ grunt", "separator": " ", "dirs": []} },
+	{ "caption": "Run other command here…", "command": "run_command_here", "args": { "label": "$", "dirs": []} },
 	{ "caption": "Cancel running task", "command": "kill" },
 	{ "caption": "-" }
 ]
