@@ -27,10 +27,6 @@
 	},
 	"_feedback": {
 		"correct": "correct",
-		"_partlyCorrect": {
-			"notFinal": "notFinal",
-			"final": "final"
-		},
 		"_incorrect": {
 			"notFinal": "notFinal",
 			"final": "final"
