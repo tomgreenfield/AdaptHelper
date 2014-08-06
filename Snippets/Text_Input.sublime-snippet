@@ -14,7 +14,6 @@
 	"instruction": "instruction",
 	"_attempts": 2,
 	"placeholder": "Enter answer here",
-	"_allowsAnyOrder": false,
 	"_allowsAnyCase": true,
 	"_allowsPunctuation": true,
 	"_questionWeight": 1,

@@ -4,7 +4,7 @@
 "_assessment": {
 	"_isEnabled": true,
 	"_isPercentageBased": true,
-	"_scoreToPass": 75,
+	"_scoreToPass": 60,
 	"_completionMessage": {
 		"title": "title",
 		"_comment": "use [SCORE], [MAXSCORE] and [PERCENT] to display score and percentage",
