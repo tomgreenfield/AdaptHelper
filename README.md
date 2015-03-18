@@ -14,19 +14,23 @@ Note: you must have [Package Control](https://sublime.wbond.net/installation) in
 
 ## Commands
 
-Note: the following has only been tested on Windows. Requires [Node.js](http://nodejs.org), [Git](http://git-scm.com/) and [Grunt](http://gruntjs.com/getting-started) to be installed.
+Note: the following has only been tested on Windows. Requires [Node.js](http://nodejs.org) and [Grunt](http://gruntjs.com/getting-started) to be installed.
 
 ### Grunt
 
-With this package you may run grunt commands inside Sublime Text. 
+With this package you can run grunt commands inside Sublime Text. 
 
 From the side bar, right-click and select *Grunt here…* on the folder you wish to grunt.
 
-You may either type some parameters e.g. `build` or `dev`, or just press <kbd>↵ Enter</kbd> to run the default grunt command.
+You can either type some parameters e.g. `build` or `dev`, or just press <kbd>↵ Enter</kbd> to run the default grunt command.
+
+### Gulp
+
+As with the Grunt command, you can select *Gulp here…* on the folder you wish to gulp.
 
 ### Other
 
-You may also run other commands e.g. `npm install` by selecting *Run other command here…* from a folder's context menu.
+You can also run other commands e.g. `npm install` by selecting *Run other command here…* from a folder's context menu.
 
 ### Cancel
 
@@ -46,7 +50,7 @@ This package includes snippets for
 * Content Object
 * Article
 * Block
-* Components:
+* Core-bundled components:
  * Accordion
  * Blank
  * GMCQ
@@ -59,7 +63,7 @@ This package includes snippets for
  * Slider
  * Text
  * Text Input
-* Core extensions:
+* Core-bundled extensions:
  * Assessment
  * Resources
  * Trickle
