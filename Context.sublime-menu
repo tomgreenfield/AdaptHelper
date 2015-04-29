@@ -1,5 +1,5 @@
 [
 	{ "caption": "-" },
-	{ "caption": "Cancel running task", "command": "kill" },
+	{ "caption": "Cancel running task", "command": "exec", "args": { "kill": true } },
 	{ "caption": "-" }
 ]

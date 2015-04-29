@@ -1,11 +1,12 @@
 import sublime
 import sublime_plugin
+import os.path
 
 class RunCommandHereCommand(sublime_plugin.WindowCommand):
 	def run(self, **args):
 		self.dir = args["dirs"][0]
-		self.cmd_name = args.get("cmd_name") or ""
-		self.separator = args.get("separator") or ""
+		self.cmd_name = args.get("cmd_name", "")
+		self.separator = args.get("separator", "")
 		label = args.get("label")
 
 		if label:
@@ -24,8 +25,14 @@ class RunCommandHereCommand(sublime_plugin.WindowCommand):
 		sublime.status_message("Running " + self.cmd_name)
 
 	def is_visible(self, **args):
-		return len(args["dirs"]) > 0
+		dirs = args["dirs"]
+		cmd_name = args.get("cmd_name")
 
-class KillCommand(sublime_plugin.WindowCommand):
-	def run(self):
-		self.window.run_command("exec", { "kill": True })
+		if not len(dirs) > 0: return False
+		if not cmd_name: return True
+
+		if "grunt" in cmd_name: required_file = "Gruntfile.js"
+		elif "gulp" in cmd_name: required_file = "gulpfile.js"
+		else: return True
+
+		return os.path.isfile(os.path.join(dirs[0], required_file))
