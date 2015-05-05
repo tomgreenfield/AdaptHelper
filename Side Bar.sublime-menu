@@ -3,6 +3,7 @@
 	{ "caption": "Grunt here…", "command": "run_command_here", "args": { "cmd_name": "grunt --no-color", "label": ">grunt", "separator": " ", "dirs": [] } },
 	{ "caption": "Gulp here…", "command": "run_command_here", "args": { "cmd_name": "gulp", "label": ">gulp", "separator": " ", "dirs": [] } },
 	{ "caption": "Run command here…", "command": "run_command_here", "args": { "label": ">", "dirs": [] } },
+	{ "command": "run_command_here", "args": { "redo": true } },
 	{ "caption": "Cancel running task", "command": "exec", "args": { "kill": true } },
 	{ "caption": "-" }
 ]
