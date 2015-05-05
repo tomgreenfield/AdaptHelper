@@ -64,7 +64,11 @@ Similar to the grunt command, you can select *Gulp here…* on a folder containi
 
 #### Other
 
-You can also run other commands e.g. `npm install` by selecting *Run command here…* from a folder's context menu.
+You can also run other commands e.g. `npm install` by selecting *Run command here…* from a folder’s context menu.
+
+#### Redo
+
+You can redo the most recently run command by selecting *Redo "&lt;command&gt;"* from the side bar’s context menu.
 
 #### Cancel
 
