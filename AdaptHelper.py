@@ -39,9 +39,11 @@ class RunCommandHereCommand(sublime_plugin.WindowCommand):
 		elif "gulp" in cmd_name: required_file = "gulpfile.js"
 		else: return True
 
-		return os.path.isfile(os.path.join(dirs[0], required_file))
+		return os.path.isfile(os.path.join(dirs[0], required_file)) and \
+			os.path.isdir(os.path.join(dirs[0], "node_modules"))
 
 	def description(self, **args):
 		if args.get("redo") and hasattr(self, "cmd_name"):
 			return "Redo \"" + self.cmd_name + "\""
+
 		return ""

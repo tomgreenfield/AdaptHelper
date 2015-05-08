@@ -54,13 +54,13 @@ Note: the following has only been tested on Windows. Requires [Node.js](http://n
 
 With this package you can run grunt commands inside Sublime Text.
 
-From the side bar, right-click and select *Grunt here…* on a folder containing a Gruntfile.
+From the side bar, right-click and select *Grunt here…* on a folder containing a Gruntfile and a node_modules sub-folder.
 
 You can either type some parameters e.g. `build` or `dev`, or just press <kbd>↵ Enter</kbd> to run the default grunt command.
 
 #### Gulp
 
-Similar to the grunt command, you can select *Gulp here…* on a folder containing a gulpfile.
+Similar to the grunt command, you can select *Gulp here…* on a folder containing a gulpfile and a node_modules sub-folder.
 
 #### Other
 
@@ -68,7 +68,7 @@ You can also run other commands e.g. `npm install` by selecting *Run command her
 
 #### Redo
 
-You can redo the most recently run command by selecting *Redo "&lt;command&gt;"* from the side bar’s context menu.
+To redo the most recently run command, right-click the main content area or output panel and select *Redo "&lt;command&gt;"*.
 
 #### Cancel
 
