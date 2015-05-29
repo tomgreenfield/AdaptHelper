@@ -25,9 +25,10 @@ class RunCommandHereCommand(sublime_plugin.WindowCommand):
 			"cmd": self.cmd_name, "shell": True, "working_dir": self.dir
 		})
 		sublime.status_message("Running " + self.cmd_name)
+		self.last_cmd = self.cmd_name
 
 	def is_visible(self, **args):
-		if args.get("redo"): return hasattr(self, "cmd_name")
+		if args.get("redo"): return hasattr(self, "last_cmd")
 
 		dirs = args["dirs"]
 		cmd_name = args.get("cmd_name")
@@ -43,7 +44,7 @@ class RunCommandHereCommand(sublime_plugin.WindowCommand):
 			os.path.isdir(os.path.join(dirs[0], "node_modules"))
 
 	def description(self, **args):
-		if args.get("redo") and hasattr(self, "cmd_name"):
-			return "Redo \"" + self.cmd_name + "\""
+		if args.get("redo") and hasattr(self, "last_cmd"):
+			return "Redo \"" + self.last_cmd + "\""
 
 		return ""
