@@ -31,17 +31,17 @@ class RunCommandHereCommand(sublime_plugin.WindowCommand):
 		if args.get("redo"): return hasattr(self, "last_cmd")
 
 		dirs = args["dirs"]
-		cmd_name = args.get("cmd_name")
+		required = args.get("required")
 
 		if not len(dirs) > 0: return False
-		if not cmd_name: return True
+		if not required: return True
 
-		if "grunt" in cmd_name: required_file = "Gruntfile.js"
-		elif "gulp" in cmd_name: required_file = "gulpfile.js"
-		else: return True
+		dir = dirs[0]
 
-		return os.path.isfile(os.path.join(dirs[0], required_file)) and \
-			os.path.isdir(os.path.join(dirs[0], "node_modules"))
+		for path in required:
+			if not os.path.exists(os.path.join(dir, path)): return False
+
+		return True
 
 	def description(self, **args):
 		if args.get("redo") and hasattr(self, "last_cmd"):

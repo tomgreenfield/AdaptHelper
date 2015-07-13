@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+"_bookmarking": {
+	"_isEnabled": true,
+	"_comment": "_level = page | block | component",
+	"_level": "block",
+	"title": "Bookmarking",
+	"body": "Would you like to continue where you left off?",
+	"_buttons": {
+		"yes": "Yes",
+		"no": "No"
+	}
+}
+]]></content>
+	<tabTrigger>bookmarking</tabTrigger>
+	<scope>source.json</scope>
+</snippet>

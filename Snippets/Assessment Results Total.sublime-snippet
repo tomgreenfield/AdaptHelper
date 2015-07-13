@@ -1,0 +1,42 @@
+<snippet>
+	<content><![CDATA[
+{
+	"_id": "componentID",
+	"_parentId": "blockID",
+	"_type": "component",
+	"_component": "assessmentResultsTotal",
+	"_classes": "",
+	"_layout": "layout",
+	"_isVisibleBeforeCompletion": false,
+	"title": "title",
+	"displayTitle": "title",
+	"body": "",
+	"instruction": "instruction",
+	"_comment": "use {{score}}, {{maxScore}} and {{scoreAsPercent}} to display score and percentage",
+	"_completionBody": "{{{feedback}}}",
+	"_bands": [
+		{
+			"_score": 0,
+			"feedback": "feedback"
+		},
+		{
+			"_score": 25,
+			"feedback": "feedback"
+		},
+		{
+			"_score": 50,
+			"feedback": "feedback"
+		},
+		{
+			"_score": 75,
+			"feedback": "feedback"
+		}
+	],
+	"_pageLevelProgress": {
+		"_isEnabled": true
+	}
+}
+]]></content>
+	<tabTrigger>assessmentresultstotal</tabTrigger>
+	<scope>source.json</scope>
+</snippet>

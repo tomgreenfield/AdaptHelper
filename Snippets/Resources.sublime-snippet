@@ -1,14 +1,19 @@
 <snippet>
-  <!-- Example: Hello, ${1:this} is a ${2:snippet}. -->
-  <content><![CDATA[
+	<content><![CDATA[
 "_resources": {
 	"title": "Resources",
-	"description": "description",
+	"description": "Select here to view resources for this course",
 	"_filterButtons": {
 		"all": "All",
 		"document": "PDF",
 		"media": "Media",
 		"link": "Link"
+	},
+	"_filterAria": {
+		"allAria": "View all resources",
+		"documentAria": "View document resources",
+		"mediaAria": "View media resources",
+		"linkAria": "View resource links"
 	},
 	"_resourcesItems": [
 		{
@@ -32,9 +37,6 @@
 	]
 }
 ]]></content>
-  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-  <tabTrigger>resources</tabTrigger>
-  <description></description>
-  <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <scope>source.json</scope>
+	<tabTrigger>resources</tabTrigger>
+	<scope>source.json</scope>
 </snippet>

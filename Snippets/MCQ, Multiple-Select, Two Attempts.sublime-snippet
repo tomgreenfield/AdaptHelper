@@ -1,6 +1,5 @@
 <snippet>
-  <!-- Example: Hello, ${1:this} is a ${2:snippet}. -->
-  <content><![CDATA[
+	<content><![CDATA[
 {
 	"_id": "componentID",
 	"_parentId": "blockID",
@@ -10,13 +9,18 @@
 	"_layout": "layout",
 	"_attempts": 2,
 	"_questionWeight": 1,
+	"_shouldDisplayAttempts": false,
 	"_isRandom": true,
-	"_selectable": 5,
+	"_selectable": 6,
 	"title": "title",
 	"displayTitle": "title",
 	"body": "body",
 	"instruction": "instruction",
 	"_items": [
+		{
+			"text": "text",
+			"_shouldBeSelected": false
+		},
 		{
 			"text": "text",
 			"_shouldBeSelected": false
@@ -54,9 +58,6 @@
 	}
 }
 ]]></content>
-  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-  <tabTrigger>mcqmultiple2</tabTrigger>
-  <description>MCQ, Multiple-Select, Two Attempts</description>
-  <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <scope>source.json</scope>
+	<tabTrigger>mcqmultiple2</tabTrigger>
+	<scope>source.json</scope>
 </snippet>

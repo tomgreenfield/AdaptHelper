@@ -1,6 +1,5 @@
 <snippet>
-  <!-- Example: Hello, ${1:this} is a ${2:snippet}. -->
-  <content><![CDATA[
+	<content><![CDATA[
 {
 	"_id": "componentID",
 	"_parentId": "blockID",
@@ -8,18 +7,21 @@
 	"_component": "textinput",
 	"_classes": "",
 	"_layout": "layout",
+	"_attempts": 2,
+	"_questionWeight": 1,
+	"_shouldDisplayAttempts": false,
+	"_isRandom": true,
+	"_allowsAnyCase": true,
+	"_allowsPunctuation": true,
 	"title": "title",
 	"displayTitle": "displayTitle",
 	"body": "body",
 	"instruction": "instruction",
-	"_attempts": 2,
-	"placeholder": "Enter answer here",
-	"_allowsAnyCase": true,
-	"_allowsPunctuation": true,
-	"_questionWeight": 1,
+	"_answers": [],
 	"_items": [
 		{
 			"prefix": "prefix",
+			"placeholder": "Enter answer here",
 			"_answers": [
 				"answer",
 				"answer"
@@ -28,6 +30,7 @@
 		},
 		{
 			"prefix": "prefix",
+			"placeholder": "Enter answer here",
 			"_answers": [
 				"answer",
 				"answer"
@@ -36,6 +39,7 @@
 		},
 		{
 			"prefix": "prefix",
+			"placeholder": "Enter answer here",
 			"_answers": [
 				"answer",
 				"answer"
@@ -59,9 +63,6 @@
 	}
 }
 ]]></content>
-  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-  <tabTrigger>textinput</tabTrigger>
-  <description>Text Input</description>
-  <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <scope>source.json</scope>
+	<tabTrigger>textinput</tabTrigger>
+	<scope>source.json</scope>
 </snippet>

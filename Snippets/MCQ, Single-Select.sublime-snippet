@@ -4,31 +4,47 @@
 	"_id": "componentID",
 	"_parentId": "blockID",
 	"_type": "component",
-	"_component": "slider",
+	"_component": "mcq",
 	"_classes": "",
 	"_layout": "layout",
-	"_attempts": 2,
+	"_attempts": 1,
 	"_questionWeight": 1,
 	"_shouldDisplayAttempts": false,
-	"_showNumber": true,
-	"_showScaleIndicator": true,
-	"_scaleStart": 1,
-	"_scaleEnd": 10,
+	"_isRandom": true,
+	"_selectable": 1,
 	"title": "title",
 	"displayTitle": "title",
 	"body": "body",
 	"instruction": "instruction",
-	"labelStart": "labelStart",
-	"labelEnd": "labelEnd",
-	"_correctAnswer": "",
-	"_correctRange": {
-		"_bottom": 4,
-		"_top": 9
-	},
+	"_items": [
+		{
+			"text": "text",
+			"_shouldBeSelected": false
+		},
+		{
+			"text": "text",
+			"_shouldBeSelected": false
+		},
+		{
+			"text": "text",
+			"_shouldBeSelected": false
+		},
+		{
+			"text": "text",
+			"_shouldBeSelected": false
+		},
+		{
+			"text": "text",
+			"_shouldBeSelected": false
+		},
+		{
+			"text": "text",
+			"_shouldBeSelected": false
+		}
+	],
 	"_feedback": {
 		"correct": "correct",
 		"_incorrect": {
-			"notFinal": "notFinal",
 			"final": "final"
 		}
 	},
@@ -37,6 +53,6 @@
 	}
 }
 ]]></content>
-	<tabTrigger>slider</tabTrigger>
+	<tabTrigger>mcqsingle</tabTrigger>
 	<scope>source.json</scope>
 </snippet>

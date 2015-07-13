@@ -1,6 +1,5 @@
 <snippet>
-  <!-- Example: Hello, ${1:this} is a ${2:snippet}. -->
-  <content><![CDATA[
+	<content><![CDATA[
 {
 	"_id": "componentID",
 	"_parentId": "blockID",
@@ -10,8 +9,9 @@
 	"_layout": "layout",
 	"_attempts": 2,
 	"_questionWeight": 1,
+	"_shouldDisplayAttempts": false,
 	"_isRandom": true,
-	"_selectable": 1,
+	"_selectable": 4,
 	"title": "title",
 	"displayTitle": "title",
 	"body": "body",
@@ -21,44 +21,36 @@
 			"text": "text",
 			"_shouldBeSelected": false,
 			"_graphic": {
-				"alt": "",
-				"title": "",
 				"large": "course/en/images/componentID-1.jpg",
-				"medium": "course/en/images/componentID-1.jpg",
-				"small": "course/en/images/componentID-1.jpg"
+				"small": "course/en/images/componentID-1.jpg",
+				"alt": ""
 			}
 		},
 		{
 			"text": "text",
 			"_shouldBeSelected": false,
 			"_graphic": {
-				"alt": "",
-				"title": "",
 				"large": "course/en/images/componentID-2.jpg",
-				"medium": "course/en/images/componentID-2.jpg",
-				"small": "course/en/images/componentID-2.jpg"
+				"small": "course/en/images/componentID-2.jpg",
+				"alt": ""
 			}
 		},
 		{
 			"text": "text",
 			"_shouldBeSelected": false,
 			"_graphic": {
-				"alt": "",
-				"title": "",
 				"large": "course/en/images/componentID-3.jpg",
-				"medium": "course/en/images/componentID-3.jpg",
-				"small": "course/en/images/componentID-3.jpg"
+				"small": "course/en/images/componentID-3.jpg",
+				"alt": ""
 			}
 		},
 		{
 			"text": "text",
 			"_shouldBeSelected": false,
 			"_graphic": {
-				"alt": "",
-				"title": "",
 				"large": "course/en/images/componentID-4.jpg",
-				"medium": "course/en/images/componentID-4.jpg",
-				"small": "course/en/images/componentID-4.jpg"
+				"small": "course/en/images/componentID-4.jpg",
+				"alt": ""
 			}
 		}
 	],
@@ -78,9 +70,6 @@
 	}
 }
 ]]></content>
-  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-  <tabTrigger>gmcq</tabTrigger>
-  <description></description>
-  <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <scope>source.json</scope>
+	<tabTrigger>gmcq</tabTrigger>
+	<scope>source.json</scope>
 </snippet>

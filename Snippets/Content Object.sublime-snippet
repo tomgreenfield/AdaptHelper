@@ -1,0 +1,25 @@
+<snippet>
+	<content><![CDATA[
+{
+	"_id": "contentObjectID",
+	"_parentId": "parentID",
+	"_type": "type",
+	"_classes": "",
+	"title": "title",
+	"displayTitle": "title",
+	"body": "body",
+	"_graphic": {
+		"src": "course/en/images/contentObjectID.jpg",
+		"alt": ""
+	},
+	"linkText": "View",
+	"durationLabel": "Duration:",
+	"duration": "xx mins",
+	"_pageLevelProgress": {
+		"_isEnabled": true
+	}
+}
+]]></content>
+	<tabTrigger>contentobject</tabTrigger>
+	<scope>source.json</scope>
+</snippet>

@@ -1,6 +1,6 @@
 # Adapt Helper
 
-This is an Sublime Text package to help with the population of content in the [Adapt Framework](https://github.com/adaptlearning/adapt_framework).
+This is a Sublime Text package to help with the population of content in the [Adapt Framework](https://github.com/adaptlearning/adapt_framework).
 
 ## Installation
 
@@ -29,13 +29,15 @@ This package includes snippets for
 * Article
 * Block
 * Core-bundled components:
+ * Assessment Results
+ * Assessment Results Total
  * Accordion
  * Blank
  * GMCQ
  * Graphic
  * Hot Graphic
  * Matching
- * MCQ (three variations)
+ * MCQ (four variations)
  * Media
  * Narrative
  * Slider
@@ -43,28 +45,33 @@ This package includes snippets for
  * Text Input
 * Core-bundled extensions:
  * Assessment
+ * Bookmarking
  * Resources
  * Trickle
 
 ### Commands
 
-Note: the following has only been tested on Windows. Requires [Node.js](http://nodejs.org) and [Grunt](http://gruntjs.com/getting-started)/[Gulp](https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md) to be installed.
+Note: the following has only been tested on Windows. Requires [Node.js](http://nodejs.org) and [Grunt](http://gruntjs.com/getting-started)/[Gulp](https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md)/[Rub](https://github.com/oliverfoster/adapt-buildkit-rub) to be installed.
 
 #### Grunt
 
-With this package you can run grunt commands inside Sublime Text.
+With this package you can run Grunt commands inside Sublime Text.
 
-From the side bar, right-click and select *Grunt here…* on a folder containing a Gruntfile and a node_modules sub-folder.
+From the side bar, right-click and select *Grunt Here…* on a folder containing a Gruntfile and a node_modules sub-folder.
 
-You can either type some parameters e.g. `build` or `dev`, or just press <kbd>↵ Enter</kbd> to run the default grunt command.
+You can either type some parameters e.g. `build` or `dev`, or just press <kbd>↵ Enter</kbd> to run the default Grunt command.
 
 #### Gulp
 
-Similar to the grunt command, you can select *Gulp here…* on a folder containing a gulpfile and a node_modules sub-folder.
+Similar to the Grunt command, you can select *Gulp Here…* on a folder containing a gulpfile and a node_modules sub-folder.
+
+#### Rub
+
+To use the native buildkit Rub, select *Rub Here…* on a folder containing a rub batch file and a buildkit/node_modules sub-folder.
 
 #### Other
 
-You can also run other commands e.g. `npm install` by selecting *Run command here…* from a folder’s context menu.
+You can also run other commands e.g. `npm install` by selecting *Run Command Here…* from a folder’s context menu.
 
 #### Redo
 
@@ -72,4 +79,6 @@ To redo the most recently run command, right-click the main content area or outp
 
 #### Cancel
 
-To kill a running command, right-click the side bar or output panel and select *Cancel running task*.
+To kill a running command, right-click the side bar or output panel and select *Cancel Running Task*.
+
+If the output panel becomes hidden, you can show it again from *Tools > Build Results > Show Build Results*.
