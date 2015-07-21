@@ -29,9 +29,9 @@ This package includes snippets for
 * Article
 * Block
 * Core-bundled components:
+ * Accordion
  * Assessment Results
  * Assessment Results Total
- * Accordion
  * Blank
  * GMCQ
  * Graphic
@@ -51,7 +51,7 @@ This package includes snippets for
 
 ### Commands
 
-Note: the following has only been tested on Windows. Requires [Node.js](http://nodejs.org) and [Grunt](http://gruntjs.com/getting-started)/[Gulp](https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md)/[Rub](https://github.com/oliverfoster/adapt-buildkit-rub) to be installed.
+Note: the following has only been tested on Windows. Requires [Node.js](http://nodejs.org) and [Grunt](http://gruntjs.com/getting-started)/[Gulp](https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md)/[Rub](https://github.com/cgkineo/adapt-buildkit-rub) to be installed.
 
 #### Grunt
 

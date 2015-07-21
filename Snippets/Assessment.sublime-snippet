@@ -5,7 +5,7 @@
 	"_id": "articleID",
 	"_isPercentageBased": true,
 	"_scoreToPass": 75,
-	"_postScoreToLms": true,
+	"_includeInTotalScore": true,
 	"_assessmentWeight": 1,
 	"_banks": {
 		"_isEnabled": false,
