@@ -1,6 +1,5 @@
 <snippet>
-  <!-- Example: Hello, ${1:this} is a ${2:snippet}. -->
-  <content><![CDATA[
+	<content><![CDATA[
 {
 	"_id": "componentID",
 	"_parentId": "blockID",
@@ -8,18 +7,21 @@
 	"_component": "narrative",
 	"_classes": "",
 	"_layout": "layout",
+	"_comment": "setCompletionOn = inview | allItems",
+	"_setCompletionOn": "allItems",
+	"_hasNavigationInTextArea": false,
 	"title": "title",
 	"displayTitle": "title",
 	"body": "body",
 	"instruction": "instruction",
+	"mobileInstruction": "",
 	"_items": [
 		{
 			"title": "title",
 			"body": "body",
 			"_graphic": {
 				"src": "course/en/images/componentID-1.jpg",
-				"alt": "",
-				"title": ""
+				"alt": ""
 			},
 			"strapline": "title"
 		},
@@ -28,8 +30,7 @@
 			"body": "body",
 			"_graphic": {
 				"src": "course/en/images/componentID-2.jpg",
-				"alt": "",
-				"title": ""
+				"alt": ""
 			},
 			"strapline": "title"
 		},
@@ -38,8 +39,7 @@
 			"body": "body",
 			"_graphic": {
 				"src": "course/en/images/componentID-3.jpg",
-				"alt": "",
-				"title": ""
+				"alt": ""
 			},
 			"strapline": "title"
 		},
@@ -48,8 +48,7 @@
 			"body": "body",
 			"_graphic": {
 				"src": "course/en/images/componentID-4.jpg",
-				"alt": "",
-				"title": ""
+				"alt": ""
 			},
 			"strapline": "title"
 		},
@@ -58,8 +57,16 @@
 			"body": "body",
 			"_graphic": {
 				"src": "course/en/images/componentID-5.jpg",
-				"alt": "",
-				"title": ""
+				"alt": ""
+			},
+			"strapline": "title"
+		},
+		{
+			"title": "title",
+			"body": "body",
+			"_graphic": {
+				"src": "course/en/images/componentID-6.jpg",
+				"alt": ""
 			},
 			"strapline": "title"
 		}
@@ -69,9 +76,6 @@
 	}
 }
 ]]></content>
-  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-  <tabTrigger>narrative</tabTrigger>
-  <description></description>
-  <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <scope>source.json</scope>
+	<tabTrigger>narrative</tabTrigger>
+	<scope>source.json</scope>
 </snippet>

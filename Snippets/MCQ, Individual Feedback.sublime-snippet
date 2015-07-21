@@ -1,6 +1,5 @@
 <snippet>
-  <!-- Example: Hello, ${1:this} is a ${2:snippet}. -->
-  <content><![CDATA[
+	<content><![CDATA[
 {
 	"_id": "componentID",
 	"_parentId": "blockID",
@@ -10,6 +9,7 @@
 	"_layout": "layout",
 	"_attempts": 1,
 	"_questionWeight": 1,
+	"_shouldDisplayAttempts": false,
 	"_isRandom": true,
 	"_selectable": 1,
 	"title": "title",
@@ -19,39 +19,42 @@
 	"_items": [
 		{
 			"text": "text",
-			"_shouldBeSelected": false
+			"_shouldBeSelected": true
 		},
 		{
 			"text": "text",
-			"_shouldBeSelected": false
+			"_shouldBeSelected": false,
+			"feedback": "feedback"
 		},
 		{
 			"text": "text",
-			"_shouldBeSelected": false
+			"_shouldBeSelected": false,
+			"feedback": "feedback"
 		},
 		{
 			"text": "text",
-			"_shouldBeSelected": false
+			"_shouldBeSelected": false,
+			"feedback": "feedback"
 		},
 		{
 			"text": "text",
-			"_shouldBeSelected": false
+			"_shouldBeSelected": false,
+			"feedback": "feedback"
+		},
+		{
+			"text": "text",
+			"_shouldBeSelected": false,
+			"feedback": "feedback"
 		}
 	],
 	"_feedback": {
-		"correct": "correct",
-		"_incorrect": {
-			"final": "final"
-		}
+		"correct": "correct"
 	},
 	"_pageLevelProgress": {
 		"_isEnabled": true
 	}
 }
 ]]></content>
-  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-  <tabTrigger>mcqsingle</tabTrigger>
-  <description>MCQ, Single-Select</description>
-  <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <scope>source.json</scope>
+	<tabTrigger>mcqindividual</tabTrigger>
+	<scope>source.json</scope>
 </snippet>

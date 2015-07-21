@@ -1,5 +1,6 @@
 [
 	{ "caption": "-" },
-	{ "caption": "Cancel running task", "command": "kill" },
+	{ "command": "run_command_here", "args": { "redo": true } },
+	{ "caption": "Cancel Running Task", "command": "exec", "args": { "kill": true } },
 	{ "caption": "-" }
 ]

@@ -1,6 +1,5 @@
 <snippet>
-  <!-- Example: Hello, ${1:this} is a ${2:snippet}. -->
-  <content><![CDATA[
+	<content><![CDATA[
 {
 	"_id": "componentID",
 	"_parentId": "blockID",
@@ -14,34 +13,52 @@
 	"instruction": "instruction",
 	"_items": [
 		{
-			"alt": "",
 			"title": "title",
-			"body": "body"
+			"body": "body",
+			"_graphic": {
+				"src": "course/en/images/componentID-1.jpg",
+				"alt": ""
+			}
 		},
 		{
-			"alt": "",
 			"title": "title",
-			"body": "body"
+			"body": "body",
+			"_graphic": {
+				"src": "course/en/images/componentID-2.jpg",
+				"alt": ""
+			}
 		},
 		{
-			"alt": "",
 			"title": "title",
-			"body": "body"
+			"body": "body",
+			"_graphic": {
+				"src": "course/en/images/componentID-3.jpg",
+				"alt": ""
+			}
 		},
 		{
-			"alt": "",
 			"title": "title",
-			"body": "body"
+			"body": "body",
+			"_graphic": {
+				"src": "course/en/images/componentID-4.jpg",
+				"alt": ""
+			}
 		},
 		{
-			"alt": "",
 			"title": "title",
-			"body": "body"
+			"body": "body",
+			"_graphic": {
+				"src": "course/en/images/componentID-5.jpg",
+				"alt": ""
+			}
 		},
 		{
-			"alt": "",
 			"title": "title",
-			"body": "body"
+			"body": "body",
+			"_graphic": {
+				"src": "course/en/images/componentID-6.jpg",
+				"alt": ""
+			}
 		}
 	],
 	"_pageLevelProgress": {
@@ -49,9 +66,6 @@
 	}
 }
 ]]></content>
-  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-  <tabTrigger>accordion</tabTrigger>
-  <description></description>
-  <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <scope>source.json</scope>
+	<tabTrigger>accordion</tabTrigger>
+	<scope>source.json</scope>
 </snippet>

@@ -1,19 +1,15 @@
 <snippet>
-  <!-- Example: Hello, ${1:this} is a ${2:snippet}. -->
-  <content><![CDATA[
+	<content><![CDATA[
 {
 	"_id": "articleID",
 	"_parentId": "contentObjectID",
 	"_type": "article",
 	"_classes": "",
-	"title": "title",
+	"title": "articleID",
 	"displayTitle": "",
 	"body": ""
 }
 ]]></content>
-  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-  <tabTrigger>article</tabTrigger>
-  <description></description>
-  <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <scope>source.json</scope>
+	<tabTrigger>article</tabTrigger>
+	<scope>source.json</scope>
 </snippet>

@@ -1,6 +1,5 @@
 <snippet>
-  <!-- Example: Hello, ${1:this} is a ${2:snippet}. -->
-  <content><![CDATA[
+	<content><![CDATA[
 {
 	"_id": "componentID",
 	"_parentId": "blockID",
@@ -8,11 +7,16 @@
 	"_component": "hotgraphic",
 	"_classes": "",
 	"_layout": "layout",
+	"_comment": "setCompletionOn = inview | allItems",
+	"_setCompletionOn": "allItems",
+	"_canCycleThroughPagination": false,
+	"_hidePagination": false,
+	"_useGraphicsAsPins": false,
 	"title": "title",
 	"displayTitle": "title",
 	"body": "body",
-	"mobileBody": "",
 	"instruction": "instruction",
+	"mobileInstruction": "",
 	"_graphic": {
 		"src": "course/en/images/componentID.jpg",
 		"alt": "",
@@ -25,11 +29,12 @@
 			"_graphic": {
 				"src": "course/en/images/componentID-1.jpg",
 				"alt": "",
-				"title": ""
+				"_classes": ""
 			},
 			"strapline": "title",
-			"_top": 5,
-			"_left": 5
+			"_classes": "",
+			"_top": 10,
+			"_left": 10
 		},
 		{
 			"title": "title",
@@ -37,11 +42,12 @@
 			"_graphic": {
 				"src": "course/en/images/componentID-2.jpg",
 				"alt": "",
-				"title": ""
+				"_classes": ""
 			},
 			"strapline": "title",
-			"_top": 15,
-			"_left": 15
+			"_classes": "",
+			"_top": 20,
+			"_left": 20
 		},
 		{
 			"title": "title",
@@ -49,11 +55,12 @@
 			"_graphic": {
 				"src": "course/en/images/componentID-3.jpg",
 				"alt": "",
-				"title": ""
+				"_classes": ""
 			},
 			"strapline": "title",
-			"_top": 25,
-			"_left": 25
+			"_classes": "",
+			"_top": 30,
+			"_left": 30
 		},
 		{
 			"title": "title",
@@ -61,11 +68,12 @@
 			"_graphic": {
 				"src": "course/en/images/componentID-4.jpg",
 				"alt": "",
-				"title": ""
+				"_classes": ""
 			},
 			"strapline": "title",
-			"_top": 35,
-			"_left": 35
+			"_classes": "",
+			"_top": 40,
+			"_left": 40
 		},
 		{
 			"title": "title",
@@ -73,11 +81,25 @@
 			"_graphic": {
 				"src": "course/en/images/componentID-5.jpg",
 				"alt": "",
-				"title": ""
+				"_classes": ""
 			},
 			"strapline": "title",
-			"_top": 45,
-			"_left": 45
+			"_classes": "",
+			"_top": 50,
+			"_left": 50
+		},
+		{
+			"title": "title",
+			"body": "body",
+			"_graphic": {
+				"src": "course/en/images/componentID-6.jpg",
+				"alt": "",
+				"_classes": ""
+			},
+			"strapline": "title",
+			"_classes": "",
+			"_top": 60,
+			"_left": 60
 		}
 	],
 	"_pageLevelProgress": {
@@ -85,9 +107,6 @@
 	}
 }
 ]]></content>
-  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-  <tabTrigger>hotgraphic</tabTrigger>
-  <description>Hot Graphic</description>
-  <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <scope>source.json</scope>
+	<tabTrigger>hotgraphic</tabTrigger>
+	<scope>source.json</scope>
 </snippet>

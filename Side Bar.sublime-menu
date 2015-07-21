@@ -1,7 +1,9 @@
 [
 	{ "caption": "-", "id": "start" },
-	{ "caption": "Grunt here…", "command": "run_command_here", "args": { "cmd_name": "grunt --no-color", "label": "$ grunt", "separator": " ", "dirs": []} },
-	{ "caption": "Run other command here…", "command": "run_command_here", "args": { "label": "$", "dirs": []} },
-	{ "caption": "Cancel running task", "command": "kill" },
+	{ "caption": "Grunt Here…", "command": "run_command_here", "args": { "cmd_name": "grunt --no-color", "label": ">grunt", "separator": " ", "dirs": [], "required": [ "Gruntfile.js", "node_modules" ] } },
+	{ "caption": "Gulp Here…", "command": "run_command_here", "args": { "cmd_name": "gulp", "label": ">gulp", "separator": " ", "dirs": [], "required": [ "gulpfile.js", "node_modules" ] } },
+	{ "caption": "Rub Here…", "command": "run_command_here", "args": { "cmd_name": "rub", "label": ">rub", "separator": " ", "dirs": [], "required": [ "rub.bat", "buildkit/node_modules" ] } },
+	{ "caption": "Run Command Here…", "command": "run_command_here", "args": { "label": ">", "dirs": [] } },
+	{ "caption": "Cancel Running Task", "command": "exec", "args": { "kill": true } },
 	{ "caption": "-" }
 ]

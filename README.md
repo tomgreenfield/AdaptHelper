@@ -1,6 +1,6 @@
 # Adapt Helper
 
-This is an Sublime Text package to help with the population of content in the [Adapt Framework](https://github.com/adaptlearning/adapt_framework).
+This is a Sublime Text package to help with the population of content in the [Adapt Framework](https://github.com/adaptlearning/adapt_framework).
 
 ## Installation
 
@@ -12,27 +12,9 @@ Note: you must have [Package Control](https://sublime.wbond.net/installation) in
 4. Open the Command Palette again, type `install` and select *Package Control: Install Package*.
 5. Select *AdaptHelper* from the list that appears to install the package.
 
-## Commands
+## Usage
 
-Note: the following has only been tested on Windows. Requires [Node.js](http://nodejs.org), [Git](http://git-scm.com/) and [Grunt](http://gruntjs.com/getting-started) to be installed.
-
-### Grunt
-
-With this package you may run grunt commands inside Sublime Text. 
-
-From the side bar, right-click and select *Grunt here…* on the folder you wish to grunt.
-
-You may either type some parameters e.g. `build` or `dev`, or just press <kbd>↵ Enter</kbd> to run the default grunt command.
-
-### Other
-
-You may also run other commands e.g. `npm install` by selecting *Run other command here…* from a folder's context menu.
-
-### Cancel
-
-To kill a running command, right-click the side bar or output panel and select *Cancel running task*.
-
-## Snippets
+### Snippets
 
 The easiest way to insert snippets is by using triggers.
 
@@ -46,20 +28,57 @@ This package includes snippets for
 * Content Object
 * Article
 * Block
-* Components:
+* Core-bundled components:
  * Accordion
+ * Assessment Results
+ * Assessment Results Total
  * Blank
  * GMCQ
  * Graphic
  * Hot Graphic
  * Matching
- * MCQ (three variations)
+ * MCQ (four variations)
  * Media
  * Narrative
  * Slider
  * Text
  * Text Input
-* Core extensions:
+* Core-bundled extensions:
  * Assessment
+ * Bookmarking
  * Resources
  * Trickle
+
+### Commands
+
+Note: the following has only been tested on Windows. Requires [Node.js](http://nodejs.org) and [Grunt](http://gruntjs.com/getting-started)/[Gulp](https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md)/[Rub](https://github.com/cgkineo/adapt-buildkit-rub) to be installed.
+
+#### Grunt
+
+With this package you can run Grunt commands inside Sublime Text.
+
+From the side bar, right-click and select *Grunt Here…* on a folder containing a Gruntfile and a node_modules sub-folder.
+
+You can either type some parameters e.g. `build` or `dev`, or just press <kbd>↵ Enter</kbd> to run the default Grunt command.
+
+#### Gulp
+
+Similar to the Grunt command, you can select *Gulp Here…* on a folder containing a gulpfile and a node_modules sub-folder.
+
+#### Rub
+
+To use the native buildkit Rub, select *Rub Here…* on a folder containing a rub batch file and a buildkit/node_modules sub-folder.
+
+#### Other
+
+You can also run other commands e.g. `npm install` by selecting *Run Command Here…* from a folder’s context menu.
+
+#### Redo
+
+To redo the most recently run command, right-click the main content area or output panel and select *Redo "&lt;command&gt;"*.
+
+#### Cancel
+
+To kill a running command, right-click the side bar or output panel and select *Cancel Running Task*.
+
+If the output panel becomes hidden, you can show it again from *Tools > Build Results > Show Build Results*.

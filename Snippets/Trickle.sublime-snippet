@@ -1,14 +1,12 @@
 <snippet>
-	<!-- Example: Hello, ${1:this} is a ${2:snippet}. -->
 	<content><![CDATA[
 "_trickle": {
 	"_isEnabled": true,
-	"button": "Continue"
+	"button": {
+		"text": "Continue"
+	}
 }
 ]]></content>
-  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-  <tabTrigger>trickle</tabTrigger>
-  <description></description>
-  <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <scope>source.json</scope>
+	<tabTrigger>trickle</tabTrigger>
+	<scope>source.json</scope>
 </snippet>

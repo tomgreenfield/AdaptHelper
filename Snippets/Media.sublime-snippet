@@ -1,6 +1,5 @@
 <snippet>
-  <!-- Example: Hello, ${1:this} is a ${2:snippet}. -->
-  <content><![CDATA[
+	<content><![CDATA[
 {
 	"_id": "componentID",
 	"_parentId": "blockID",
@@ -8,25 +7,38 @@
 	"_component": "media",
 	"_classes": "",
 	"_layout": "layout",
+	"_comment": "_setCompletionOn = inview | play | ended",
+	"_setCompletionOn": "play",
+	"_useClosedCaptions": false,
 	"title": "title",
 	"displayTitle": "title",
 	"body": "body",
 	"instruction": "instruction",
-	"_comment": "_setCompletionOn = inview | play | ended",
-	"_setCompletionOn": "play",
 	"_media": {
 		"mp4": "course/en/video/componentID.mp4",
 		"ogv": "course/en/video/componentID.ogv",
-		"poster": "course/en/video/componentID.jpg"
+		"poster": "course/en/video/componentID.jpg",
+		"cc": [
+			{
+				"srclang": "en",
+				"src": "course/en/video/componentID.vtt"
+			}
+		]
+	},
+	"_transcript": {
+		"_inlineTranscript": true,
+		"_externalTranscript": false,
+		"inlineTranscriptButton": "Transcript",
+		"inlineTranscriptCloseButton": "Close Transcript",
+		"inlineTranscriptBody": "inlineTranscriptBody",
+		"transcriptLinkButton": "Transcript",
+		"transcriptLink": "course/en/video/componentID.pdf"
 	},
 	"_pageLevelProgress": {
 		"_isEnabled": true
 	}
 }
 ]]></content>
-  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-  <tabTrigger>media</tabTrigger>
-  <description></description>
-  <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <scope>source.json</scope>
+	<tabTrigger>media</tabTrigger>
+	<scope>source.json</scope>
 </snippet>
