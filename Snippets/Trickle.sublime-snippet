@@ -3,6 +3,7 @@
 "_trickle": {
 	"_isEnabled": true,
 	"button": {
+		"_isEnabled": true,
 		"text": "Continue"
 	}
 }

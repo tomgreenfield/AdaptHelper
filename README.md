@@ -31,7 +31,6 @@ This package includes snippets for
 * Core-bundled components:
  * Accordion
  * Assessment Results
- * Assessment Results Total
  * Blank
  * GMCQ
  * Graphic

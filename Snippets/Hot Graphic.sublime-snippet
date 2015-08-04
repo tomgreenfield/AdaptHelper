@@ -15,12 +15,12 @@
 	"title": "title",
 	"displayTitle": "title",
 	"body": "body",
+	"mobileBody": "",
 	"instruction": "instruction",
 	"mobileInstruction": "",
 	"_graphic": {
 		"src": "course/en/images/componentID.jpg",
-		"alt": "",
-		"title": ""
+		"alt": ""
 	},
 	"_items": [
 		{

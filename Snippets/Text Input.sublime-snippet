@@ -9,6 +9,7 @@
 	"_layout": "layout",
 	"_attempts": 2,
 	"_questionWeight": 1,
+	"_canShowModelAnswer": true,
 	"_shouldDisplayAttempts": false,
 	"_isRandom": true,
 	"_allowsAnyCase": true,

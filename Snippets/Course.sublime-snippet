@@ -9,27 +9,27 @@
 	"_buttons": {
 		"_submit": {
 			"buttonText": "Submit",
-			"ariaLabel": "Select here to submit your answer."
+			"ariaLabel": "Submit your answer by clicking here."
 		},
 		"_reset": {
 			"buttonText": "Reset",
-			"ariaLabel": ""
+			"ariaLabel": "Reset the question by clicking here."
 		},
 		"_showCorrectAnswer": {
 			"buttonText": "Correct answer",
-			"ariaLabel": ""
+			"ariaLabel": "Show the correct answer by clicking here."
 		},
 		"_hideCorrectAnswer": {
 			"buttonText": "My answer",
-			"ariaLabel": ""
+			"ariaLabel": "Show the answer you gave by clicking here."
 		},
 		"_showFeedback": {
 			"buttonText": "Show feedback",
-			"ariaLabel": ""
+			"ariaLabel": "View the question feedback again by clicking here."
 		},
 		"remainingAttemptsText": "attempts remaining",
 		"remainingAttemptText": "final attempt",
-		"disabledAriaLabel": "This button is disabled at the moment"
+		"disabledAriaLabel": "This button is disabled at the moment."
 	},
 	"_globals": {
 		"_components": {
@@ -62,8 +62,7 @@
 				"instruction": ""
 			},
 			"_media": {
-				"ariaRegion": "This is a media component which plays a video. Select the play / pause button to watch or listen.",
-				"transcriptButton": "Alternatively you can select the link below for the transcript.",
+				"ariaRegion": "This is a media component which plays a video. Select the play / pause button to watch or listen. Alternatively you can select the link below for the transcript.",
 				"instruction": ""
 			},
 			"_narrative": {
@@ -114,7 +113,7 @@
 				"closeResources": "Close resources",
 				"resourcesEnd": "You have reached the end of the list of resources.",
 				"drawerBack": "Back to drawer",
-				"drawer": "Side drawer",
+				"drawer": "Top of side drawer",
 				"closePopup": "Close popup",
 				"next": "Next",
 				"done": "Done",
@@ -130,14 +129,14 @@
 				"menuBack": "Back to menu",
 				"menuIndicatorHeading": "Menu item heading ",
 				"pageLevelProgress": "Page sections",
-				"pageLevelProgressIndicatorBar": "You have completed ",
+				"pageLevelProgressIndicatorBar": "Progress bar. Select here to view your current progress, and select an item to navigate to it. You have completed ",
 				"pageLevelProgressEnd": "You have reached the end of the list of page sections."
 			}
 		}
 	},
 	"_pageLevelProgress": {
 		"_isEnabled": true,
-		"_altText": "of components completed on this page"
+		"_altText": "of components completed on this page."
 	}
 }
 ]]></content>

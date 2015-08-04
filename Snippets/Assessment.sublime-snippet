@@ -18,7 +18,8 @@
 	},
 	"_questions": {
 		"_resetType": "hard",
-		"_canShowFeedback": true
+		"_canShowFeedback": true,
+		"_canShowMarking": true
 	},
 	"_isResetOnRevisit": true,
 	"_attempts": "infinite"
