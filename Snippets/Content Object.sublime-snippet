@@ -8,6 +8,7 @@
 	"title": "title",
 	"displayTitle": "title",
 	"body": "body",
+	"pageBody": "pageBody",
 	"_graphic": {
 		"src": "course/en/images/contentObjectID.jpg",
 		"alt": ""
