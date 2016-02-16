@@ -1,11 +1,7 @@
 <snippet>
 	<content><![CDATA[
 "_trickle": {
-	"_isEnabled": true,
-	"button": {
-		"_isEnabled": true,
-		"text": "Continue"
-	}
+	"_isEnabled": true
 }
 ]]></content>
 	<tabTrigger>trickle</tabTrigger>
