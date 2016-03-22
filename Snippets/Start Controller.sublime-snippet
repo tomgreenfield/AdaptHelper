@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+"_start": {
+	"_isEnabled": true,
+	"_id": "contentObjectID",
+	"_force": false
+}
+]]></content>
+	<tabTrigger>start</tabTrigger>
+	<scope>source.json</scope>
+</snippet>

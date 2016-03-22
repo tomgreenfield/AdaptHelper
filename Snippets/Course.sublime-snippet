@@ -5,6 +5,7 @@
 	"_type": "course",
 	"title": "title",
 	"displayTitle": "title",
+	"description": "",
 	"body": "body",
 	"_buttons": {
 		"_submit": {

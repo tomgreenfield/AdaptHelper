@@ -47,6 +47,7 @@ This package includes snippets for
  * Bookmarking
  * Resources
  * Trickle
+* Start Controller
 
 ### Commands
 
