@@ -1,6 +1,7 @@
 <snippet>
 	<content><![CDATA[
 "_resources": {
+	"_isEnabled": true,
 	"title": "Resources",
 	"description": "Select here to view resources for this course",
 	"_filterButtons": {
