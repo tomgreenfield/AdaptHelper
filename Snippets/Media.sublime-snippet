@@ -10,13 +10,14 @@
 	"_comment": "_setCompletionOn = inview | play | ended",
 	"_setCompletionOn": "play",
 	"_useClosedCaptions": false,
+	"_startLanguage": "en",
+	"_allowFullScreen": true,
 	"title": "title",
 	"displayTitle": "title",
 	"body": "body",
 	"instruction": "instruction",
 	"_media": {
 		"mp4": "course/en/video/componentID.mp4",
-		"ogv": "course/en/video/componentID.ogv",
 		"poster": "course/en/video/componentID.jpg",
 		"cc": [
 			{
@@ -26,6 +27,7 @@
 		]
 	},
 	"_transcript": {
+		"_setCompletionOnView": true,
 		"_inlineTranscript": true,
 		"_externalTranscript": false,
 		"inlineTranscriptButton": "Transcript",
