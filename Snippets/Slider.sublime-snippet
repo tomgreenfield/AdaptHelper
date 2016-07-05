@@ -15,6 +15,7 @@
 	"_showScaleIndicator": true,
 	"_scaleStart": 1,
 	"_scaleEnd": 10,
+	"_scaleStep": 1,
 	"title": "title",
 	"displayTitle": "title",
 	"body": "body",
