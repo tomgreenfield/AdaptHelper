@@ -10,6 +10,8 @@
 	"_attempts": 2,
 	"_questionWeight": 1,
 	"_canShowModelAnswer": true,
+	"_canShowFeedback": true,
+	"_canShowMarking": true,
 	"_shouldDisplayAttempts": false,
 	"_isRandom": true,
 	"title": "title",
