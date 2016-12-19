@@ -12,6 +12,7 @@
 	"_useClosedCaptions": false,
 	"_startLanguage": "en",
 	"_allowFullScreen": true,
+	"_playsinline": false,
 	"title": "title",
 	"displayTitle": "title",
 	"body": "body",
