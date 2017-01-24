@@ -15,6 +15,7 @@
 	"_shouldDisplayAttempts": false,
 	"_isRandom": true,
 	"_selectable": 4,
+	"_columns": 0,
 	"title": "title",
 	"displayTitle": "title",
 	"body": "body",

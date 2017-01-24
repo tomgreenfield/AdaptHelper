@@ -22,7 +22,8 @@
 			"_type": "document",
 			"title": "title",
 			"description": "description",
-			"_link": "course/en/pdf/filename.pdf"
+			"_link": "course/en/pdf/filename.pdf",
+			"filename": "filename.pdf"
 		},
 		{
 			"_type": "media",
