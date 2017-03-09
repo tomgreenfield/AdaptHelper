@@ -45,6 +45,7 @@ This package includes snippets for
 * Core-bundled extensions:
  * Assessment
  * Bookmarking
+ * Language Picker
  * Resources
  * Trickle
 * Start Controller
