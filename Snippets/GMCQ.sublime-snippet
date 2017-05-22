@@ -27,7 +27,8 @@
 			"_graphic": {
 				"large": "course/en/images/componentID-1.jpg",
 				"small": "course/en/images/componentID-1.jpg",
-				"alt": ""
+				"alt": "",
+				"attribution": ""
 			}
 		},
 		{
@@ -36,7 +37,8 @@
 			"_graphic": {
 				"large": "course/en/images/componentID-2.jpg",
 				"small": "course/en/images/componentID-2.jpg",
-				"alt": ""
+				"alt": "",
+				"attribution": ""
 			}
 		},
 		{
@@ -45,7 +47,8 @@
 			"_graphic": {
 				"large": "course/en/images/componentID-3.jpg",
 				"small": "course/en/images/componentID-3.jpg",
-				"alt": ""
+				"alt": "",
+				"attribution": ""
 			}
 		},
 		{
@@ -54,7 +57,8 @@
 			"_graphic": {
 				"large": "course/en/images/componentID-4.jpg",
 				"small": "course/en/images/componentID-4.jpg",
-				"alt": ""
+				"alt": "",
+				"attribution": ""
 			}
 		}
 	],

@@ -7,6 +7,9 @@
 	"_scoreToPass": 75,
 	"_includeInTotalScore": true,
 	"_assessmentWeight": 1,
+	"_isResetOnRevisit": true,
+	"_attempts": "infinite",
+	"_suppressMarking": false,
 	"_banks": {
 		"_isEnabled": false,
 		"_split": "2,1",
@@ -21,9 +24,7 @@
 		"_canShowFeedback": true,
 		"_canShowMarking": true,
 		"_canShowModelAnswer": true
-	},
-	"_isResetOnRevisit": true,
-	"_attempts": "infinite"
+	}
 }
 ]]></content>
 	<tabTrigger>assessment</tabTrigger>
