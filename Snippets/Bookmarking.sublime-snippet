@@ -4,6 +4,7 @@
 	"_isEnabled": true,
 	"_comment": "_level = page | block | component",
 	"_level": "block",
+	"_showPrompt": true,
 	"title": "Bookmarking",
 	"body": "Would you like to continue where you left off?",
 	"_buttons": {

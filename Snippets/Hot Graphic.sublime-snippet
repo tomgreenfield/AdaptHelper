@@ -7,7 +7,7 @@
 	"_component": "hotgraphic",
 	"_classes": "",
 	"_layout": "layout",
-	"_comment": "setCompletionOn = inview | allItems",
+	"_comment": "_setCompletionOn = inview | allItems",
 	"_setCompletionOn": "allItems",
 	"_canCycleThroughPagination": false,
 	"_hidePagination": false,
