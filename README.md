@@ -68,7 +68,7 @@ Similar to the Grunt command, you can select *Gulp Here…* on a folder containi
 
 #### Rub
 
-To use the Rub buildkit, select *Rub Here…* on a folder containing rub-cli’s README.
+To use the Rub buildkit, select *Rub Here…* on a folder containing Rub’s README.
 
 For the legacy, native Rub buildkit, select *Rub Here… (Legacy)* on a folder containing a rub batch file and a buildkit/node_modules sub-folder.
 
