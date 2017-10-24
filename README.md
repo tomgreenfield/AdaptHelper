@@ -52,7 +52,7 @@ This package includes snippets for
 
 ### Commands
 
-Note: the following has only been tested on Windows. Requires [Node.js](http://nodejs.org) and [Grunt](http://gruntjs.com/getting-started)/[Gulp](https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md)/[Rub](https://github.com/cgkineo/adapt-buildkit-rub) to be installed.
+Note: the following has only been tested on Windows. Requires [Node.js](http://nodejs.org) and [Grunt](http://gruntjs.com/getting-started)/[Gulp](https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md)/[Rub](https://github.com/cgkineo/rub-cli)/[Rub (Legacy)](https://github.com/cgkineo/adapt-buildkit-rub) to be installed.
 
 #### Grunt
 
@@ -68,7 +68,9 @@ Similar to the Grunt command, you can select *Gulp Here…* on a folder containi
 
 #### Rub
 
-To use the native buildkit Rub, select *Rub Here…* on a folder containing a rub batch file and a buildkit/node_modules sub-folder.
+To use the Rub buildkit, select *Rub Here…* on a folder containing rub-cli’s README.
+
+For the legacy, native Rub buildkit, select *Rub Here… (Legacy)* on a folder containing a rub batch file and a buildkit/node_modules sub-folder.
 
 #### Other
 
