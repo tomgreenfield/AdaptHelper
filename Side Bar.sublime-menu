@@ -1,6 +1,6 @@
 [
 	{ "caption": "-", "id": "start" },
-	{ "caption": "Grunt Here…", "command": "run_command_here", "args": { "cmd_name": "grunt", "label": ">grunt", "separator": " ", "dirs": [], "required": [ "Gruntfile.js", "node_modules" ] } },
+	{ "caption": "Grunt Here…", "command": "run_command_here", "args": { "cmd_name": "grunt --no-color", "label": ">grunt", "separator": " ", "dirs": [], "required": [ "Gruntfile.js", "node_modules" ] } },
 	{ "caption": "Gulp Here…", "command": "run_command_here", "args": { "cmd_name": "gulp", "label": ">gulp", "separator": " ", "dirs": [], "required": [ "gulpfile.js", "node_modules" ] } },
 	{ "caption": "Rub Here…", "command": "run_command_here", "args": { "cmd_name": "rub", "label": ">rub", "separator": " ", "dirs": [], "required": [ "RUB_README.md" ] } },
 	{ "caption": "Rub Here… (Legacy)", "command": "run_command_here", "args": { "cmd_name": "rub", "label": ">rub", "separator": " ", "dirs": [], "required": [ "rub.bat", "buildkit/node_modules" ] } },
