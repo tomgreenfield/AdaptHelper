@@ -10,6 +10,7 @@
 	"_isResetOnRevisit": true,
 	"_attempts": "infinite",
 	"_suppressMarking": false,
+	"_allowResetIfPassed": false,
 	"_banks": {
 		"_isEnabled": false,
 		"_split": "2,1",
