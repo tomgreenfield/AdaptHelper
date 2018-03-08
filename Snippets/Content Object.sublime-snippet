@@ -9,6 +9,7 @@
 	"displayTitle": "title",
 	"body": "body",
 	"pageBody": "pageBody",
+	"instruction": "instruction",
 	"_graphic": {
 		"src": "course/en/images/contentObjectID.jpg",
 		"alt": ""

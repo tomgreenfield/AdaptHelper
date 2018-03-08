@@ -2,6 +2,7 @@
 	<content><![CDATA[
 "_resources": {
 	"_isEnabled": true,
+	"_drawerOrder": 0,
 	"title": "Resources",
 	"description": "Select here to view resources for this course",
 	"_filterButtons": {

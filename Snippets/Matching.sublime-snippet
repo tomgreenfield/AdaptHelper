@@ -73,6 +73,7 @@
 		}
 	],
 	"_feedback": {
+		"title": "",
 		"correct": "correct",
 		"_partlyCorrect": {
 			"notFinal": "notFinal",

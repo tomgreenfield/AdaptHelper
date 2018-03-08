@@ -46,6 +46,7 @@
 		}
 	],
 	"_feedback": {
+		"title": "",
 		"correct": "correct",
 		"_incorrect": {
 			"final": "final"
