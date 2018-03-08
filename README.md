@@ -29,25 +29,25 @@ This package includes snippets for
 * Article
 * Block
 * Core-bundled components:
- * Accordion
- * Assessment Results
- * Blank
- * GMCQ
- * Graphic
- * Hot Graphic
- * Matching
- * MCQ (four variations)
- * Media
- * Narrative
- * Slider
- * Text
- * Text Input
+  * Accordion
+  * Assessment Results
+  * Blank
+  * GMCQ
+  * Graphic
+  * Hot Graphic
+  * Matching
+  * MCQ (four variations)
+  * Media
+  * Narrative
+  * Slider
+  * Text
+  * Text Input
 * Core-bundled extensions:
- * Assessment
- * Bookmarking
- * Language Picker
- * Resources
- * Trickle
+  * Assessment
+  * Bookmarking
+  * Language Picker
+  * Resources
+  * Trickle
 * Start Controller
 
 ### Commands
