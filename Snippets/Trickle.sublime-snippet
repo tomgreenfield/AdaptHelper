@@ -1,7 +1,30 @@
 <snippet>
 	<content><![CDATA[
 "_trickle": {
-	"_isEnabled": true
+	"_isEnabled": true,
+	"_autoScroll": true,
+	"_scrollDuration": 500,
+	"_onChildren": true,
+	"_scrollTo": "@block +1",
+	"_button": {
+		"_isEnabled": true,
+		"_comment": "_styleBeforeCompletion = hidden | visible",
+		"_styleBeforeCompletion": "hidden",
+		"_comment": "_styleAfterClick = hidden | disabled | scroll",
+		"_styleAfterClick": "hidden",
+		"_isFullWidth": true,
+		"_autoHide": false,
+		"_className": "",
+		"_component": "trickle-button",
+		"startText": "Begin",
+		"text": "Continue",
+		"finalText": "Finish"
+	},
+	"_stepLocking": {
+		"_isEnabled": true,
+		"_isCompletionRequired": true,
+		"_isLockedOnRevisit": false
+	}
 }
 ]]></content>
 	<tabTrigger>trickle</tabTrigger>

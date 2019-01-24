@@ -41,7 +41,8 @@
 		"transcriptLink": "course/en/video/componentID.pdf"
 	},
 	"_pageLevelProgress": {
-		"_isEnabled": true
+		"_isEnabled": true,
+		"_isCompletionIndicatorEnabled": false
 	}
 }
 ]]></content>

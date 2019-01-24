@@ -14,6 +14,7 @@
 	"_canShowMarking": true,
 	"_shouldDisplayAttempts": false,
 	"_isRandom": true,
+	"_shouldResetAllAnswers": true,
 	"title": "title",
 	"displayTitle": "title",
 	"body": "body",
@@ -85,7 +86,8 @@
 		}
 	},
 	"_pageLevelProgress": {
-		"_isEnabled": true
+		"_isEnabled": true,
+		"_isCompletionIndicatorEnabled": false
 	}
 }
 ]]></content>

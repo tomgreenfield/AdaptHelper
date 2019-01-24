@@ -7,7 +7,10 @@
 	"_component": "assessmentResults",
 	"_classes": "",
 	"_layout": "layout",
+	"_comment": "_setCompletionOn = inview | pass",
+	"_setCompletionOn": "inview",
 	"_isVisibleBeforeCompletion": false,
+	"_resetType": "inherit",
 	"_assessmentId": "articleID",
 	"title": "title",
 	"displayTitle": "title",
@@ -16,7 +19,8 @@
 	"_retry": {
 		"button": "Retry Assessment",
 		"_comment": "use {{attempts}}, {{attemptsSpent}} and {{attemptsLeft}} to display attempts",
-		"feedback": "feedback"
+		"feedback": "feedback",
+		"_routeToAssessment": true
 	},
 	"_comment": "use {{score}}, {{maxScore}} and {{scoreAsPercent}} to display score and percentage",
 	"_completionBody": "{{{feedback}}}",
@@ -47,7 +51,8 @@
 		}
 	],
 	"_pageLevelProgress": {
-		"_isEnabled": true
+		"_isEnabled": true,
+		"_isCompletionIndicatorEnabled": false
 	}
 }
 ]]></content>

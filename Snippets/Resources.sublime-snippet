@@ -7,24 +7,24 @@
 	"description": "Select here to view resources for this course",
 	"_filterButtons": {
 		"all": "All",
-		"document": "PDF",
+		"document": "Document",
 		"media": "Media",
 		"link": "Link"
 	},
 	"_filterAria": {
-		"allAria": "View all resources",
-		"documentAria": "View document resources",
-		"mediaAria": "View media resources",
-		"linkAria": "View resource links"
+		"allAria": "All resources",
+		"documentAria": "Documents",
+		"mediaAria": "Media",
+		"linkAria": "Links"
 	},
-	"itemAriaExternal": "This content will open in a new window",
 	"_resourcesItems": [
 		{
 			"_type": "document",
 			"title": "title",
 			"description": "description",
 			"_link": "course/en/pdf/filename.pdf",
-			"filename": "filename.pdf"
+			"filename": "filename.pdf",
+			"_forceDownload": false
 		},
 		{
 			"_type": "media",

@@ -17,7 +17,8 @@
 	"linkText": "View",
 	"duration": "xx mins",
 	"_pageLevelProgress": {
-		"_isEnabled": true
+		"_isEnabled": true,
+		"_isCompletionIndicatorEnabled": false
 	}
 }
 ]]></content>
