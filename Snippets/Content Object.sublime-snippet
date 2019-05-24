@@ -5,6 +5,7 @@
 	"_parentId": "parentID",
 	"_type": "type",
 	"_classes": "",
+	"_htmlClassName": "",
 	"title": "title",
 	"displayTitle": "title",
 	"body": "body",
