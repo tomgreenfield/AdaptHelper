@@ -3,11 +3,12 @@
 {
 	"_id": "courseID",
 	"_type": "course",
-	"_htmlClassName": "",
+	"_htmlClasses": "",
 	"title": "title",
 	"displayTitle": "title",
 	"description": "",
 	"body": "body",
+	"instruction": "instruction",
 	"_buttons": {
 		"_submit": {
 			"buttonText": "Submit",

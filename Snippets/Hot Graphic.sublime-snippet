@@ -12,6 +12,7 @@
 	"_canCycleThroughPagination": false,
 	"_hidePagination": false,
 	"_useGraphicsAsPins": false,
+	"_isRound": false,
 	"title": "title",
 	"displayTitle": "title",
 	"body": "body",

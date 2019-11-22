@@ -12,6 +12,7 @@
 	"_useClosedCaptions": false,
 	"_startLanguage": "en",
 	"_allowFullScreen": true,
+	"_pauseWhenOffScreen": false,
 	"_playsinline": false,
 	"_preventForwardScrubbing": false,
 	"_showVolumeControl": true,

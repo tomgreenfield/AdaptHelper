@@ -22,9 +22,9 @@
 	},
 	"_questions": {
 		"_resetType": "hard",
-		"_canShowFeedback": true,
-		"_canShowMarking": true,
-		"_canShowModelAnswer": true
+		"_canShowFeedback": false,
+		"_canShowMarking": false,
+		"_canShowModelAnswer": false
 	}
 }
 ]]></content>
