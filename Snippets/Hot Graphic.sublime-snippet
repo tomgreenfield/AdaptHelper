@@ -11,6 +11,8 @@
 	"_setCompletionOn": "allItems",
 	"_canCycleThroughPagination": false,
 	"_hidePagination": false,
+	"_isNarrativeOnMobile": true,
+	"_useNumberedPins": false,
 	"_useGraphicsAsPins": false,
 	"_isRound": false,
 	"title": "title",
